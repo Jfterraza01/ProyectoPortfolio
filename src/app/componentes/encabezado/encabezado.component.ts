@@ -6,6 +6,7 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   templateUrl: './encabezado.component.html',
   styleUrls: ['./encabezado.component.css']
 })
+
 export class EncabezadoComponent implements OnInit{
 
   constructor(private datosPorfolio:PorfolioService){}
