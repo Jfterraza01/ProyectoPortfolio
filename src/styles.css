@@ -153,6 +153,31 @@ section {
   }
 /* More about ends */
 
+
+/* Education section ends */
+.education {
+  background-color: var(--bg-color);
+  padding: 4rem 6rem;
+}
+
+.education h3{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.titulo-de-education{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.education p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+}
+
+/* Education section ends */
+
 /* Skills section */
     .habilidades {
 	max-width: 68.75rem;
@@ -376,6 +401,23 @@ section {
   
     .more-about p {
       text-align: justify;
+    }
+
+    .education {
+      margin-top: 2rem;
+      padding: 1rem 3.5rem;
+    }
+
+    .education h3{
+      text-align: center;
+    }
+
+    .education p{
+      text-align: justify;
+    }
+
+    .titulo-de-education {
+      text-align: center;
     }
   
     .icon {

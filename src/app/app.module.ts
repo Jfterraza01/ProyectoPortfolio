@@ -12,6 +12,7 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { PieDePagComponent } from './componentes/pie-de-pag/pie-de-pag.component';
 import { PorfolioService } from './servicios/porfolio.service';
 import { HttpClientModule } from '@angular/common/http';
+import { EducacionComponent } from './componentes/educacion/educacion.component';
 
 
 
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     HabilidadesComponent,
     ProyectosComponent,
     ContactoComponent,
-    PieDePagComponent
+    PieDePagComponent,
+    EducacionComponent
     
   ],
   imports: [
